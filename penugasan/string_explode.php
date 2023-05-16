@@ -12,9 +12,9 @@
      $implode = implode(",", $arraykelompok);
      echo $implode;
      
-     $arraykelompok = array(" Bintang "," Zaldi "," Nabil "," Husain ");
-     $implode = implode("-", $arraykelompok);
-     echo $implode;
+     $arraykelompok = " Bintang, Zaldi, Nabil, Husain ";
+     $implode = implode('-', $arraykelompok);
+     print_r($inplode);
      ?>
 
    </body>
